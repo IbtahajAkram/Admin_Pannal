@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="./images/software-engineer.png">
+            <h1>Admin Panal</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu">
+                        <br>
+                        <li><a style="font-size: 15.1px" href="#">Submenu Item 1</a></li>
+                        <li><a style="font-size: 15.1px"  href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-th"></i> Layouts</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a style="font-size: 15.1px"  href="#">Submenu Item 1</a></li>
+                        <li><a style="font-size: 15.1px"  href="#">Submenu Item 2</a></li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-database"></i> CRUD</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-file"></i> Pages</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-lock"></i> Authentication</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-play"></i> Playground</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a  href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-github"></i> GitHub Repository</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-book"></i> Flowbite Docs</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-cubes"></i> Components</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-life-ring"></i> Support</a>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                    <ul class="submenu"><br>
+                        <li><a href="#">Submenu Item 1</a></li>
+                        <li><a href="#">Submenu Item 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="header">
+            <input type="text" placeholder="Search">
+            <div class="user-menu">
+                <a href="#"><i class="fas fa-star"></i> Star</a>
+                <a href="#"><i class="fas fa-bell"></i> Notifications</a>
+                <a href="#"><i class="fas fa-user"></i> Profile</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="transactions">
+                <h2>Transactions</h2>
+                <p>This is a list of latest transactions</p>
+                <div class="filters">
+                    <button>Filter by status <i class="fas fa-filter"></i></button>
+                    <select>
+                        <option value="all">All</option>
+                        <option  value="completed">Completed</option>
+                        <option value="in-progress">In Progress</option>
+                        <option value="cancelled">Cancelled</option>
+                    </select>
+                    <input type="date">
+                    <input type="date">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Transaction</th>
+                            <th>Date & Time</th>
+                            <th>Amount</th>
+                            <th>Reference Number</th>
+                            <th>Payment Method</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Payment from Bonnie Green</td>
+                            <td>Apr 23, 2021</td>
+                            <td>$2300</td>
+                            <td>0047568936</td>
+                            <td><i class="fab fa-cc-mastercard"></i> •••• 475</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment refund to #00910</td>
+                            <td>Apr 23, 2021</td>
+                            <td>-$670</td>
+                            <td>0078568936</td>
+                            <td><i class="fab fa-cc-visa"></i> •••• 924</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment failed from #087651</td>
+                            <td>Apr 18, 2021</td>
+                            <td>$234</td>
+                            <td>0088568934</td>
+                            <td><i class="fab fa-cc-visa"></i> •••• 826</td>
+                            <td><span class="status cancelled">Cancelled</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment from Lana Byrd</td>
+                            <td>Apr 15, 2021</td>
+                            <td>$5000</td>
+                            <td>0018568911</td>
+                            <td><i class="fab fa-cc-visa"></i> •••• 634</td>
+                            <td><span class="status in-progress">In progress</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment from Jese Leos</td>
+                            <td>Apr 15, 2021</td>
+                            <td>$2300</td>
+                            <td>0045568939</td>
+                            <td><i class="fab fa-cc-mastercard"></i> •••• 163</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>Refund to THEMESBERG LLC</td>
+                            <td>Apr 11, 2021</td>
+                            <td>-$560</td>
+                            <td>0031568935</td>
+                            <td><i class="fab fa-cc-mastercard"></i> •••• 443</td>
+                            <td><span class="status in-review">In review</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment from Lana Lysle</td>
+                            <td>Apr 6, 2021</td>
+                            <td>$1437</td>
+                            <td>0023568934</td>
+                            <td><i class="fab fa-cc-mastercard"></i> •••• 223</td>
+                            <td><span class="status in-review">In review</span></td>
+                        </tr>
+                        <tr>
+                            <td>Payment to Joseph Mcfall</td>
+                            <td>Apr 1, 2021</td>
+                            <td>$980</td>
+                            <td>0057568935</td>
+                            <td><i class="fab fa-cc-visa"></i> •••• 363</td>
+                            <td><span class="status completed">Completed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="footer">
+                    <p>Last 7 days</p>
+                    <a href="#">TRANSACTIONS REPORT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-info">
+            <p>Terms and conditions</p>
+            <p>Privacy Policy</p>
+            <p>Licensing</p>
+            <p>Cookie Policy</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <script>
+        // index.js
+
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdownIcons = document.querySelectorAll('.dropdown-icon');
+    
+    dropdownIcons.forEach(icon => {
+        icon.addEventListener('click', () => {
+            const submenu = icon.nextElementSibling;
+            submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
